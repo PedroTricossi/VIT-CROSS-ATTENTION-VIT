@@ -1,0 +1,1420 @@
+Namespace(model='cvit', batch_size=64, epochs=20000, lr=5e-05, momentum=0.9, no_cuda=False, seed=42, log_interval=1, save_model=False, dry_run=False)
+Using cvit
+EPOCH: 1 - best_loss: 100 / old_loss: 10000
+
+Validation set: Average loss: 0.0317, Accuracy: 1278/5000 (26%)
+
+EPOCH: 2 - best_loss: 0.03173496098518372 / old_loss: 100
+
+Validation set: Average loss: 0.0315, Accuracy: 1418/5000 (28%)
+
+EPOCH: 3 - best_loss: 0.031505137920379636 / old_loss: 0.03173496098518372
+
+Validation set: Average loss: 0.0293, Accuracy: 1664/5000 (33%)
+
+EPOCH: 4 - best_loss: 0.02933624942302704 / old_loss: 0.031505137920379636
+
+Validation set: Average loss: 0.0280, Accuracy: 1818/5000 (36%)
+
+EPOCH: 5 - best_loss: 0.02795769498348236 / old_loss: 0.02933624942302704
+
+Validation set: Average loss: 0.0287, Accuracy: 1759/5000 (35%)
+
+EPOCH: 6 - best_loss: 0.02868588161468506 / old_loss: 0.02795769498348236
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0277, Accuracy: 1917/5000 (38%)
+
+EPOCH: 7 - best_loss: 0.02771159040927887 / old_loss: 0.02795769498348236
+
+Validation set: Average loss: 0.0272, Accuracy: 1920/5000 (38%)
+
+EPOCH: 8 - best_loss: 0.027210844993591308 / old_loss: 0.02771159040927887
+
+Validation set: Average loss: 0.0268, Accuracy: 1950/5000 (39%)
+
+EPOCH: 9 - best_loss: 0.02682268991470337 / old_loss: 0.027210844993591308
+
+Validation set: Average loss: 0.0274, Accuracy: 2034/5000 (41%)
+
+EPOCH: 10 - best_loss: 0.027393775033950806 / old_loss: 0.02682268991470337
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0263, Accuracy: 2059/5000 (41%)
+
+
+Test set: Average loss: 0.0259, Accuracy: 4078/10000 (41%)
+
+EPOCH: 11 - best_loss: 0.026292411184310912 / old_loss: 0.02682268991470337
+
+Validation set: Average loss: 0.0262, Accuracy: 2030/5000 (41%)
+
+EPOCH: 12 - best_loss: 0.026227506041526794 / old_loss: 0.026292411184310912
+
+Validation set: Average loss: 0.0255, Accuracy: 2149/5000 (43%)
+
+EPOCH: 13 - best_loss: 0.025540300726890564 / old_loss: 0.026227506041526794
+
+Validation set: Average loss: 0.0252, Accuracy: 2169/5000 (43%)
+
+EPOCH: 14 - best_loss: 0.025192324090003968 / old_loss: 0.025540300726890564
+
+Validation set: Average loss: 0.0249, Accuracy: 2178/5000 (44%)
+
+EPOCH: 15 - best_loss: 0.02488981204032898 / old_loss: 0.025192324090003968
+
+Validation set: Average loss: 0.0247, Accuracy: 2202/5000 (44%)
+
+EPOCH: 16 - best_loss: 0.02471766748428345 / old_loss: 0.02488981204032898
+
+Validation set: Average loss: 0.0247, Accuracy: 2232/5000 (45%)
+
+EPOCH: 17 - best_loss: 0.024717446327209472 / old_loss: 0.02471766748428345
+
+Validation set: Average loss: 0.0245, Accuracy: 2311/5000 (46%)
+
+EPOCH: 18 - best_loss: 0.024466971564292908 / old_loss: 0.024717446327209472
+
+Validation set: Average loss: 0.0238, Accuracy: 2322/5000 (46%)
+
+EPOCH: 19 - best_loss: 0.023765877652168275 / old_loss: 0.024466971564292908
+
+Validation set: Average loss: 0.0240, Accuracy: 2330/5000 (47%)
+
+EPOCH: 20 - best_loss: 0.024048572945594787 / old_loss: 0.023765877652168275
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0238, Accuracy: 2351/5000 (47%)
+
+
+Test set: Average loss: 0.0240, Accuracy: 4615/10000 (46%)
+
+EPOCH: 21 - best_loss: 0.02382960352897644 / old_loss: 0.023765877652168275
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0235, Accuracy: 2365/5000 (47%)
+
+EPOCH: 22 - best_loss: 0.02349424340724945 / old_loss: 0.023765877652168275
+
+Validation set: Average loss: 0.0231, Accuracy: 2436/5000 (49%)
+
+EPOCH: 23 - best_loss: 0.023053547430038453 / old_loss: 0.02349424340724945
+
+Validation set: Average loss: 0.0228, Accuracy: 2471/5000 (49%)
+
+EPOCH: 24 - best_loss: 0.02282437424659729 / old_loss: 0.023053547430038453
+
+Validation set: Average loss: 0.0234, Accuracy: 2405/5000 (48%)
+
+EPOCH: 25 - best_loss: 0.023432107949256896 / old_loss: 0.02282437424659729
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0229, Accuracy: 2443/5000 (49%)
+
+EPOCH: 26 - best_loss: 0.022900556802749633 / old_loss: 0.02282437424659729
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0224, Accuracy: 2471/5000 (49%)
+
+EPOCH: 27 - best_loss: 0.022424012660980226 / old_loss: 0.02282437424659729
+
+Validation set: Average loss: 0.0222, Accuracy: 2501/5000 (50%)
+
+EPOCH: 28 - best_loss: 0.02216560847759247 / old_loss: 0.022424012660980226
+
+Validation set: Average loss: 0.0225, Accuracy: 2470/5000 (49%)
+
+EPOCH: 29 - best_loss: 0.022459411835670472 / old_loss: 0.02216560847759247
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0221, Accuracy: 2538/5000 (51%)
+
+EPOCH: 30 - best_loss: 0.022144625258445738 / old_loss: 0.02216560847759247
+
+Validation set: Average loss: 0.0219, Accuracy: 2578/5000 (52%)
+
+
+Test set: Average loss: 0.0218, Accuracy: 5062/10000 (51%)
+
+EPOCH: 31 - best_loss: 0.021906286358833314 / old_loss: 0.022144625258445738
+
+Validation set: Average loss: 0.0216, Accuracy: 2580/5000 (52%)
+
+EPOCH: 32 - best_loss: 0.021569057202339172 / old_loss: 0.021906286358833314
+
+Validation set: Average loss: 0.0221, Accuracy: 2541/5000 (51%)
+
+EPOCH: 33 - best_loss: 0.022072399950027466 / old_loss: 0.021569057202339172
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0216, Accuracy: 2610/5000 (52%)
+
+EPOCH: 34 - best_loss: 0.021565912675857543 / old_loss: 0.021569057202339172
+
+Validation set: Average loss: 0.0215, Accuracy: 2623/5000 (52%)
+
+EPOCH: 35 - best_loss: 0.021501674461364747 / old_loss: 0.021565912675857543
+
+Validation set: Average loss: 0.0217, Accuracy: 2561/5000 (51%)
+
+EPOCH: 36 - best_loss: 0.021664831614494322 / old_loss: 0.021501674461364747
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0208, Accuracy: 2715/5000 (54%)
+
+EPOCH: 37 - best_loss: 0.020752313566207884 / old_loss: 0.021501674461364747
+
+Validation set: Average loss: 0.0214, Accuracy: 2593/5000 (52%)
+
+EPOCH: 38 - best_loss: 0.021403798103332518 / old_loss: 0.020752313566207884
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0209, Accuracy: 2692/5000 (54%)
+
+EPOCH: 39 - best_loss: 0.02089564664363861 / old_loss: 0.020752313566207884
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0206, Accuracy: 2696/5000 (54%)
+
+EPOCH: 40 - best_loss: 0.02062937958240509 / old_loss: 0.020752313566207884
+
+Validation set: Average loss: 0.0199, Accuracy: 2776/5000 (56%)
+
+
+Test set: Average loss: 0.0211, Accuracy: 5232/10000 (52%)
+
+EPOCH: 41 - best_loss: 0.019935721945762635 / old_loss: 0.02062937958240509
+
+Validation set: Average loss: 0.0207, Accuracy: 2679/5000 (54%)
+
+EPOCH: 42 - best_loss: 0.02073482391834259 / old_loss: 0.019935721945762635
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0201, Accuracy: 2790/5000 (56%)
+
+EPOCH: 43 - best_loss: 0.020107516384124755 / old_loss: 0.019935721945762635
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0206, Accuracy: 2719/5000 (54%)
+
+EPOCH: 44 - best_loss: 0.020612659156322478 / old_loss: 0.019935721945762635
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0201, Accuracy: 2783/5000 (56%)
+
+EPOCH: 45 - best_loss: 0.020092286229133605 / old_loss: 0.019935721945762635
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0199, Accuracy: 2741/5000 (55%)
+
+EPOCH: 46 - best_loss: 0.019905270779132844 / old_loss: 0.019935721945762635
+
+Validation set: Average loss: 0.0201, Accuracy: 2764/5000 (55%)
+
+EPOCH: 47 - best_loss: 0.020066181337833406 / old_loss: 0.019905270779132844
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0199, Accuracy: 2802/5000 (56%)
+
+EPOCH: 48 - best_loss: 0.019851362216472625 / old_loss: 0.019905270779132844
+
+Validation set: Average loss: 0.0196, Accuracy: 2823/5000 (56%)
+
+EPOCH: 49 - best_loss: 0.019606067740917207 / old_loss: 0.019851362216472625
+
+Validation set: Average loss: 0.0201, Accuracy: 2780/5000 (56%)
+
+EPOCH: 50 - best_loss: 0.02008491116762161 / old_loss: 0.019606067740917207
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0196, Accuracy: 2837/5000 (57%)
+
+
+Test set: Average loss: 0.0195, Accuracy: 5661/10000 (57%)
+
+EPOCH: 51 - best_loss: 0.019557019817829133 / old_loss: 0.019606067740917207
+
+Validation set: Average loss: 0.0190, Accuracy: 2876/5000 (58%)
+
+EPOCH: 52 - best_loss: 0.019041274797916414 / old_loss: 0.019557019817829133
+
+Validation set: Average loss: 0.0189, Accuracy: 2886/5000 (58%)
+
+EPOCH: 53 - best_loss: 0.018923503267765044 / old_loss: 0.019041274797916414
+
+Validation set: Average loss: 0.0192, Accuracy: 2911/5000 (58%)
+
+EPOCH: 54 - best_loss: 0.019156414091587068 / old_loss: 0.018923503267765044
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0195, Accuracy: 2828/5000 (57%)
+
+EPOCH: 55 - best_loss: 0.019541160440444946 / old_loss: 0.018923503267765044
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0195, Accuracy: 2832/5000 (57%)
+
+EPOCH: 56 - best_loss: 0.019531885147094728 / old_loss: 0.018923503267765044
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0191, Accuracy: 2906/5000 (58%)
+
+EPOCH: 57 - best_loss: 0.019082536339759825 / old_loss: 0.018923503267765044
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0193, Accuracy: 2891/5000 (58%)
+
+EPOCH: 58 - best_loss: 0.019287380361557006 / old_loss: 0.018923503267765044
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0187, Accuracy: 2958/5000 (59%)
+
+EPOCH: 59 - best_loss: 0.018712505435943605 / old_loss: 0.018923503267765044
+
+Validation set: Average loss: 0.0192, Accuracy: 2840/5000 (57%)
+
+EPOCH: 60 - best_loss: 0.019213804590702058 / old_loss: 0.018712505435943605
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0186, Accuracy: 2897/5000 (58%)
+
+
+Test set: Average loss: 0.0187, Accuracy: 5803/10000 (58%)
+
+EPOCH: 61 - best_loss: 0.018609446847438812 / old_loss: 0.018712505435943605
+
+Validation set: Average loss: 0.0187, Accuracy: 2926/5000 (59%)
+
+EPOCH: 62 - best_loss: 0.018680334496498106 / old_loss: 0.018609446847438812
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0187, Accuracy: 2927/5000 (59%)
+
+EPOCH: 63 - best_loss: 0.01869226920604706 / old_loss: 0.018609446847438812
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0185, Accuracy: 2950/5000 (59%)
+
+EPOCH: 64 - best_loss: 0.018510469937324525 / old_loss: 0.018609446847438812
+
+Validation set: Average loss: 0.0184, Accuracy: 2949/5000 (59%)
+
+EPOCH: 65 - best_loss: 0.018431684648990632 / old_loss: 0.018510469937324525
+
+Validation set: Average loss: 0.0186, Accuracy: 2921/5000 (58%)
+
+EPOCH: 66 - best_loss: 0.01860668079853058 / old_loss: 0.018431684648990632
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0186, Accuracy: 2951/5000 (59%)
+
+EPOCH: 67 - best_loss: 0.01855739222764969 / old_loss: 0.018431684648990632
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0187, Accuracy: 2917/5000 (58%)
+
+EPOCH: 68 - best_loss: 0.018651059699058534 / old_loss: 0.018431684648990632
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0181, Accuracy: 2995/5000 (60%)
+
+EPOCH: 69 - best_loss: 0.018116323268413545 / old_loss: 0.018431684648990632
+
+Validation set: Average loss: 0.0180, Accuracy: 3009/5000 (60%)
+
+EPOCH: 70 - best_loss: 0.018019568467140198 / old_loss: 0.018116323268413545
+
+Validation set: Average loss: 0.0184, Accuracy: 2966/5000 (59%)
+
+
+Test set: Average loss: 0.0180, Accuracy: 5937/10000 (59%)
+
+EPOCH: 71 - best_loss: 0.018401667428016664 / old_loss: 0.018019568467140198
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0180, Accuracy: 2993/5000 (60%)
+
+EPOCH: 72 - best_loss: 0.01803630485534668 / old_loss: 0.018019568467140198
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0182, Accuracy: 2977/5000 (60%)
+
+EPOCH: 73 - best_loss: 0.01819382035732269 / old_loss: 0.018019568467140198
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0181, Accuracy: 2995/5000 (60%)
+
+EPOCH: 74 - best_loss: 0.018095725691318513 / old_loss: 0.018019568467140198
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0175, Accuracy: 3015/5000 (60%)
+
+EPOCH: 75 - best_loss: 0.01745280970335007 / old_loss: 0.018019568467140198
+
+Validation set: Average loss: 0.0176, Accuracy: 3020/5000 (60%)
+
+EPOCH: 76 - best_loss: 0.017596856737136842 / old_loss: 0.01745280970335007
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0172, Accuracy: 3068/5000 (61%)
+
+EPOCH: 77 - best_loss: 0.01723994280099869 / old_loss: 0.01745280970335007
+
+Validation set: Average loss: 0.0177, Accuracy: 3035/5000 (61%)
+
+EPOCH: 78 - best_loss: 0.017689621090888976 / old_loss: 0.01723994280099869
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0175, Accuracy: 3029/5000 (61%)
+
+EPOCH: 79 - best_loss: 0.017483148086071015 / old_loss: 0.01723994280099869
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0174, Accuracy: 3146/5000 (63%)
+
+EPOCH: 80 - best_loss: 0.017366563463211058 / old_loss: 0.01723994280099869
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0172, Accuracy: 3126/5000 (63%)
+
+
+Test set: Average loss: 0.0171, Accuracy: 6209/10000 (62%)
+
+EPOCH: 81 - best_loss: 0.017176318633556367 / old_loss: 0.01723994280099869
+
+Validation set: Average loss: 0.0172, Accuracy: 3100/5000 (62%)
+
+EPOCH: 82 - best_loss: 0.017153761065006257 / old_loss: 0.017176318633556367
+
+Validation set: Average loss: 0.0175, Accuracy: 3059/5000 (61%)
+
+EPOCH: 83 - best_loss: 0.01750729990005493 / old_loss: 0.017153761065006257
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0171, Accuracy: 3135/5000 (63%)
+
+EPOCH: 84 - best_loss: 0.017129972660541535 / old_loss: 0.017153761065006257
+
+Validation set: Average loss: 0.0172, Accuracy: 3120/5000 (62%)
+
+EPOCH: 85 - best_loss: 0.017211544919013978 / old_loss: 0.017129972660541535
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0173, Accuracy: 3077/5000 (62%)
+
+EPOCH: 86 - best_loss: 0.01731193872690201 / old_loss: 0.017129972660541535
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0174, Accuracy: 3089/5000 (62%)
+
+EPOCH: 87 - best_loss: 0.01743601541519165 / old_loss: 0.017129972660541535
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0174, Accuracy: 3112/5000 (62%)
+
+EPOCH: 88 - best_loss: 0.017398448526859282 / old_loss: 0.017129972660541535
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0170, Accuracy: 3155/5000 (63%)
+
+EPOCH: 89 - best_loss: 0.017034743058681488 / old_loss: 0.017129972660541535
+
+Validation set: Average loss: 0.0171, Accuracy: 3137/5000 (63%)
+
+EPOCH: 90 - best_loss: 0.01710917854309082 / old_loss: 0.017034743058681488
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0167, Accuracy: 3175/5000 (64%)
+
+
+Test set: Average loss: 0.0165, Accuracy: 6322/10000 (63%)
+
+EPOCH: 91 - best_loss: 0.016662853217124938 / old_loss: 0.017034743058681488
+
+Validation set: Average loss: 0.0168, Accuracy: 3192/5000 (64%)
+
+EPOCH: 92 - best_loss: 0.016837451314926147 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0169, Accuracy: 3162/5000 (63%)
+
+EPOCH: 93 - best_loss: 0.016893370282649995 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0169, Accuracy: 3168/5000 (63%)
+
+EPOCH: 94 - best_loss: 0.01685373147726059 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0171, Accuracy: 3106/5000 (62%)
+
+EPOCH: 95 - best_loss: 0.017093299317359926 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0167, Accuracy: 3147/5000 (63%)
+
+EPOCH: 96 - best_loss: 0.016715430235862732 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0172, Accuracy: 3113/5000 (62%)
+
+EPOCH: 97 - best_loss: 0.01718592222929001 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0170, Accuracy: 3169/5000 (63%)
+
+EPOCH: 98 - best_loss: 0.017001333332061767 / old_loss: 0.016662853217124938
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0162, Accuracy: 3181/5000 (64%)
+
+EPOCH: 99 - best_loss: 0.01624115810394287 / old_loss: 0.016662853217124938
+
+Validation set: Average loss: 0.0167, Accuracy: 3156/5000 (63%)
+
+EPOCH: 100 - best_loss: 0.01670424041748047 / old_loss: 0.01624115810394287
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0165, Accuracy: 3190/5000 (64%)
+
+
+Test set: Average loss: 0.0164, Accuracy: 6395/10000 (64%)
+
+EPOCH: 101 - best_loss: 0.01648651067018509 / old_loss: 0.01624115810394287
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0170, Accuracy: 3118/5000 (62%)
+
+EPOCH: 102 - best_loss: 0.017042826545238494 / old_loss: 0.01624115810394287
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0163, Accuracy: 3181/5000 (64%)
+
+EPOCH: 103 - best_loss: 0.01627599855661392 / old_loss: 0.01624115810394287
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0160, Accuracy: 3279/5000 (66%)
+
+EPOCH: 104 - best_loss: 0.015951615262031555 / old_loss: 0.01624115810394287
+
+Validation set: Average loss: 0.0161, Accuracy: 3260/5000 (65%)
+
+EPOCH: 105 - best_loss: 0.016124787211418152 / old_loss: 0.015951615262031555
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0161, Accuracy: 3236/5000 (65%)
+
+EPOCH: 106 - best_loss: 0.016139090085029603 / old_loss: 0.015951615262031555
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0165, Accuracy: 3215/5000 (64%)
+
+EPOCH: 107 - best_loss: 0.016469186174869536 / old_loss: 0.015951615262031555
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0167, Accuracy: 3181/5000 (64%)
+
+EPOCH: 108 - best_loss: 0.016677360904216766 / old_loss: 0.015951615262031555
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0161, Accuracy: 3218/5000 (64%)
+
+EPOCH: 109 - best_loss: 0.0160986403465271 / old_loss: 0.015951615262031555
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0159, Accuracy: 3257/5000 (65%)
+
+EPOCH: 110 - best_loss: 0.015917991173267365 / old_loss: 0.015951615262031555
+
+Validation set: Average loss: 0.0161, Accuracy: 3269/5000 (65%)
+
+
+Test set: Average loss: 0.0159, Accuracy: 6471/10000 (65%)
+
+EPOCH: 111 - best_loss: 0.016085475373268127 / old_loss: 0.015917991173267365
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0156, Accuracy: 3304/5000 (66%)
+
+EPOCH: 112 - best_loss: 0.01557299097776413 / old_loss: 0.015917991173267365
+
+Validation set: Average loss: 0.0156, Accuracy: 3292/5000 (66%)
+
+EPOCH: 113 - best_loss: 0.015588346111774445 / old_loss: 0.01557299097776413
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0159, Accuracy: 3267/5000 (65%)
+
+EPOCH: 114 - best_loss: 0.015930021929740905 / old_loss: 0.01557299097776413
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0159, Accuracy: 3243/5000 (65%)
+
+EPOCH: 115 - best_loss: 0.015911347377300263 / old_loss: 0.01557299097776413
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0161, Accuracy: 3261/5000 (65%)
+
+EPOCH: 116 - best_loss: 0.016114409506320954 / old_loss: 0.01557299097776413
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0153, Accuracy: 3341/5000 (67%)
+
+EPOCH: 117 - best_loss: 0.01530762175321579 / old_loss: 0.01557299097776413
+
+Validation set: Average loss: 0.0156, Accuracy: 3300/5000 (66%)
+
+EPOCH: 118 - best_loss: 0.01559212806224823 / old_loss: 0.01530762175321579
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0153, Accuracy: 3335/5000 (67%)
+
+EPOCH: 119 - best_loss: 0.01529787026643753 / old_loss: 0.01530762175321579
+
+Validation set: Average loss: 0.0156, Accuracy: 3304/5000 (66%)
+
+EPOCH: 120 - best_loss: 0.01556095119714737 / old_loss: 0.01529787026643753
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0153, Accuracy: 3307/5000 (66%)
+
+
+Test set: Average loss: 0.0155, Accuracy: 6564/10000 (66%)
+
+EPOCH: 121 - best_loss: 0.015298947298526764 / old_loss: 0.01529787026643753
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0154, Accuracy: 3309/5000 (66%)
+
+EPOCH: 122 - best_loss: 0.015411805248260498 / old_loss: 0.01529787026643753
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0153, Accuracy: 3357/5000 (67%)
+
+EPOCH: 123 - best_loss: 0.015265794837474823 / old_loss: 0.01529787026643753
+
+Validation set: Average loss: 0.0156, Accuracy: 3319/5000 (66%)
+
+EPOCH: 124 - best_loss: 0.015572282552719117 / old_loss: 0.015265794837474823
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0154, Accuracy: 3301/5000 (66%)
+
+EPOCH: 125 - best_loss: 0.015432922112941743 / old_loss: 0.015265794837474823
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0153, Accuracy: 3338/5000 (67%)
+
+EPOCH: 126 - best_loss: 0.015284593725204468 / old_loss: 0.015265794837474823
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0155, Accuracy: 3303/5000 (66%)
+
+EPOCH: 127 - best_loss: 0.01548208714723587 / old_loss: 0.015265794837474823
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0153, Accuracy: 3350/5000 (67%)
+
+EPOCH: 128 - best_loss: 0.015253087604045867 / old_loss: 0.015265794837474823
+
+Validation set: Average loss: 0.0149, Accuracy: 3354/5000 (67%)
+
+EPOCH: 129 - best_loss: 0.014948055601119996 / old_loss: 0.015253087604045867
+
+Validation set: Average loss: 0.0150, Accuracy: 3360/5000 (67%)
+
+EPOCH: 130 - best_loss: 0.014979969274997711 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0155, Accuracy: 3288/5000 (66%)
+
+
+Test set: Average loss: 0.0151, Accuracy: 6688/10000 (67%)
+
+EPOCH: 131 - best_loss: 0.015477279198169708 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0153, Accuracy: 3338/5000 (67%)
+
+EPOCH: 132 - best_loss: 0.015285242772102355 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0153, Accuracy: 3335/5000 (67%)
+
+EPOCH: 133 - best_loss: 0.015252657043933868 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0151, Accuracy: 3362/5000 (67%)
+
+EPOCH: 134 - best_loss: 0.015140211546421051 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0149, Accuracy: 3345/5000 (67%)
+
+EPOCH: 135 - best_loss: 0.014948795759677887 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0153, Accuracy: 3369/5000 (67%)
+
+EPOCH: 136 - best_loss: 0.015270380747318268 / old_loss: 0.014948055601119996
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0148, Accuracy: 3400/5000 (68%)
+
+EPOCH: 137 - best_loss: 0.014800503659248352 / old_loss: 0.014948055601119996
+
+Validation set: Average loss: 0.0156, Accuracy: 3329/5000 (67%)
+
+EPOCH: 138 - best_loss: 0.015616870641708374 / old_loss: 0.014800503659248352
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0152, Accuracy: 3371/5000 (67%)
+
+EPOCH: 139 - best_loss: 0.015193570351600646 / old_loss: 0.014800503659248352
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0153, Accuracy: 3362/5000 (67%)
+
+EPOCH: 140 - best_loss: 0.015347185516357421 / old_loss: 0.014800503659248352
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0150, Accuracy: 3332/5000 (67%)
+
+
+Test set: Average loss: 0.0149, Accuracy: 6723/10000 (67%)
+
+EPOCH: 141 - best_loss: 0.014988495814800263 / old_loss: 0.014800503659248352
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0149, Accuracy: 3428/5000 (69%)
+
+EPOCH: 142 - best_loss: 0.014856711339950562 / old_loss: 0.014800503659248352
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0148, Accuracy: 3396/5000 (68%)
+
+EPOCH: 143 - best_loss: 0.014789661800861359 / old_loss: 0.014800503659248352
+
+Validation set: Average loss: 0.0151, Accuracy: 3367/5000 (67%)
+
+EPOCH: 144 - best_loss: 0.015121759843826294 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0152, Accuracy: 3376/5000 (68%)
+
+EPOCH: 145 - best_loss: 0.015175627911090851 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0150, Accuracy: 3360/5000 (67%)
+
+EPOCH: 146 - best_loss: 0.014997064816951752 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0152, Accuracy: 3371/5000 (67%)
+
+EPOCH: 147 - best_loss: 0.015218019139766692 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0152, Accuracy: 3381/5000 (68%)
+
+EPOCH: 148 - best_loss: 0.015161080837249756 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0148, Accuracy: 3407/5000 (68%)
+
+EPOCH: 149 - best_loss: 0.014791364085674287 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0149, Accuracy: 3392/5000 (68%)
+
+EPOCH: 150 - best_loss: 0.01488577870130539 / old_loss: 0.014789661800861359
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0147, Accuracy: 3409/5000 (68%)
+
+
+Test set: Average loss: 0.0147, Accuracy: 6811/10000 (68%)
+
+EPOCH: 151 - best_loss: 0.014694450056552887 / old_loss: 0.014789661800861359
+
+Validation set: Average loss: 0.0143, Accuracy: 3452/5000 (69%)
+
+EPOCH: 152 - best_loss: 0.01429069539308548 / old_loss: 0.014694450056552887
+
+Validation set: Average loss: 0.0147, Accuracy: 3458/5000 (69%)
+
+EPOCH: 153 - best_loss: 0.014717784154415131 / old_loss: 0.01429069539308548
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0146, Accuracy: 3390/5000 (68%)
+
+EPOCH: 154 - best_loss: 0.014560360145568848 / old_loss: 0.01429069539308548
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0148, Accuracy: 3415/5000 (68%)
+
+EPOCH: 155 - best_loss: 0.014761243200302124 / old_loss: 0.01429069539308548
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0147, Accuracy: 3437/5000 (69%)
+
+EPOCH: 156 - best_loss: 0.014713019263744354 / old_loss: 0.01429069539308548
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0150, Accuracy: 3354/5000 (67%)
+
+EPOCH: 157 - best_loss: 0.014974656772613525 / old_loss: 0.01429069539308548
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0141, Accuracy: 3432/5000 (69%)
+
+EPOCH: 158 - best_loss: 0.014082430398464203 / old_loss: 0.01429069539308548
+
+Validation set: Average loss: 0.0141, Accuracy: 3459/5000 (69%)
+
+EPOCH: 159 - best_loss: 0.014080462205410003 / old_loss: 0.014082430398464203
+
+Validation set: Average loss: 0.0141, Accuracy: 3487/5000 (70%)
+
+EPOCH: 160 - best_loss: 0.014136706018447876 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0147, Accuracy: 3388/5000 (68%)
+
+
+Test set: Average loss: 0.0146, Accuracy: 6808/10000 (68%)
+
+EPOCH: 161 - best_loss: 0.014670695281028748 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0143, Accuracy: 3444/5000 (69%)
+
+EPOCH: 162 - best_loss: 0.014342977845668793 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0144, Accuracy: 3433/5000 (69%)
+
+EPOCH: 163 - best_loss: 0.014384461271762848 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0145, Accuracy: 3436/5000 (69%)
+
+EPOCH: 164 - best_loss: 0.014456368052959441 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0143, Accuracy: 3468/5000 (69%)
+
+EPOCH: 165 - best_loss: 0.014340183031558991 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0150, Accuracy: 3369/5000 (67%)
+
+EPOCH: 166 - best_loss: 0.015031820261478424 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0144, Accuracy: 3474/5000 (69%)
+
+EPOCH: 167 - best_loss: 0.01436968368291855 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0145, Accuracy: 3432/5000 (69%)
+
+EPOCH: 168 - best_loss: 0.014540729713439941 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0141, Accuracy: 3481/5000 (70%)
+
+EPOCH: 169 - best_loss: 0.014128062391281128 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0144, Accuracy: 3476/5000 (70%)
+
+EPOCH: 170 - best_loss: 0.014414545971155166 / old_loss: 0.014080462205410003
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0138, Accuracy: 3485/5000 (70%)
+
+
+Test set: Average loss: 0.0143, Accuracy: 6877/10000 (69%)
+
+EPOCH: 171 - best_loss: 0.013791651451587677 / old_loss: 0.014080462205410003
+
+Validation set: Average loss: 0.0140, Accuracy: 3532/5000 (71%)
+
+EPOCH: 172 - best_loss: 0.013977192771434784 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0139, Accuracy: 3497/5000 (70%)
+
+EPOCH: 173 - best_loss: 0.013893545711040498 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0146, Accuracy: 3438/5000 (69%)
+
+EPOCH: 174 - best_loss: 0.014621141576766968 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0144, Accuracy: 3460/5000 (69%)
+
+EPOCH: 175 - best_loss: 0.01435130455493927 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0141, Accuracy: 3502/5000 (70%)
+
+EPOCH: 176 - best_loss: 0.014137630331516266 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0138, Accuracy: 3520/5000 (70%)
+
+EPOCH: 177 - best_loss: 0.01381126754283905 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0138, Accuracy: 3521/5000 (70%)
+
+EPOCH: 178 - best_loss: 0.013839299380779267 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0145, Accuracy: 3435/5000 (69%)
+
+EPOCH: 179 - best_loss: 0.01453230220079422 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0140, Accuracy: 3500/5000 (70%)
+
+EPOCH: 180 - best_loss: 0.014035917353630066 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0142, Accuracy: 3460/5000 (69%)
+
+
+Test set: Average loss: 0.0144, Accuracy: 6865/10000 (69%)
+
+EPOCH: 181 - best_loss: 0.014170567333698272 / old_loss: 0.013791651451587677
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0135, Accuracy: 3553/5000 (71%)
+
+EPOCH: 182 - best_loss: 0.013535972213745117 / old_loss: 0.013791651451587677
+
+Validation set: Average loss: 0.0142, Accuracy: 3492/5000 (70%)
+
+EPOCH: 183 - best_loss: 0.014181201446056366 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0145, Accuracy: 3471/5000 (69%)
+
+EPOCH: 184 - best_loss: 0.014495649647712707 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0142, Accuracy: 3495/5000 (70%)
+
+EPOCH: 185 - best_loss: 0.01424986023902893 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0139, Accuracy: 3505/5000 (70%)
+
+EPOCH: 186 - best_loss: 0.013905347299575805 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0144, Accuracy: 3445/5000 (69%)
+
+EPOCH: 187 - best_loss: 0.014427849745750428 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0144, Accuracy: 3452/5000 (69%)
+
+EPOCH: 188 - best_loss: 0.01435119103193283 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0138, Accuracy: 3507/5000 (70%)
+
+EPOCH: 189 - best_loss: 0.013840027296543121 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0141, Accuracy: 3503/5000 (70%)
+
+EPOCH: 190 - best_loss: 0.014118467223644257 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0140, Accuracy: 3498/5000 (70%)
+
+
+Test set: Average loss: 0.0139, Accuracy: 6985/10000 (70%)
+
+EPOCH: 191 - best_loss: 0.014034700071811675 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0141, Accuracy: 3489/5000 (70%)
+
+EPOCH: 192 - best_loss: 0.01412089387178421 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0139, Accuracy: 3515/5000 (70%)
+
+EPOCH: 193 - best_loss: 0.013854901146888733 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0143, Accuracy: 3491/5000 (70%)
+
+EPOCH: 194 - best_loss: 0.014301415514945983 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 12
+
+Validation set: Average loss: 0.0142, Accuracy: 3499/5000 (70%)
+
+EPOCH: 195 - best_loss: 0.014160264229774474 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 13
+
+Validation set: Average loss: 0.0142, Accuracy: 3515/5000 (70%)
+
+EPOCH: 196 - best_loss: 0.01416558939218521 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 14
+
+Validation set: Average loss: 0.0140, Accuracy: 3529/5000 (71%)
+
+EPOCH: 197 - best_loss: 0.013952064609527588 / old_loss: 0.013535972213745117
+EARLY STOPPING COUNTS: 15
+
+Validation set: Average loss: 0.0135, Accuracy: 3570/5000 (71%)
+
+EPOCH: 198 - best_loss: 0.013532830548286438 / old_loss: 0.013535972213745117
+
+Validation set: Average loss: 0.0133, Accuracy: 3542/5000 (71%)
+
+EPOCH: 199 - best_loss: 0.013306374597549438 / old_loss: 0.013532830548286438
+
+Validation set: Average loss: 0.0139, Accuracy: 3505/5000 (70%)
+
+EPOCH: 200 - best_loss: 0.013878919333219528 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0140, Accuracy: 3496/5000 (70%)
+
+
+Test set: Average loss: 0.0136, Accuracy: 7073/10000 (71%)
+
+EPOCH: 201 - best_loss: 0.013950425821542739 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0137, Accuracy: 3536/5000 (71%)
+
+EPOCH: 202 - best_loss: 0.013702030491828918 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0140, Accuracy: 3532/5000 (71%)
+
+EPOCH: 203 - best_loss: 0.013964003396034241 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0136, Accuracy: 3545/5000 (71%)
+
+EPOCH: 204 - best_loss: 0.013631144213676453 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0136, Accuracy: 3523/5000 (70%)
+
+EPOCH: 205 - best_loss: 0.013562072598934173 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0137, Accuracy: 3587/5000 (72%)
+
+EPOCH: 206 - best_loss: 0.013667260408401488 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0135, Accuracy: 3579/5000 (72%)
+
+EPOCH: 207 - best_loss: 0.013453058755397797 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0137, Accuracy: 3564/5000 (71%)
+
+EPOCH: 208 - best_loss: 0.013688336622714996 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0135, Accuracy: 3583/5000 (72%)
+
+EPOCH: 209 - best_loss: 0.013522283256053924 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0135, Accuracy: 3580/5000 (72%)
+
+EPOCH: 210 - best_loss: 0.013537086462974548 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0135, Accuracy: 3572/5000 (71%)
+
+
+Test set: Average loss: 0.0136, Accuracy: 7101/10000 (71%)
+
+EPOCH: 211 - best_loss: 0.013466365814208984 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 12
+
+Validation set: Average loss: 0.0139, Accuracy: 3538/5000 (71%)
+
+EPOCH: 212 - best_loss: 0.013920173621177673 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 13
+
+Validation set: Average loss: 0.0135, Accuracy: 3551/5000 (71%)
+
+EPOCH: 213 - best_loss: 0.013459729313850402 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 14
+
+Validation set: Average loss: 0.0139, Accuracy: 3547/5000 (71%)
+
+EPOCH: 214 - best_loss: 0.013908459663391113 / old_loss: 0.013306374597549438
+EARLY STOPPING COUNTS: 15
+
+Validation set: Average loss: 0.0132, Accuracy: 3602/5000 (72%)
+
+EPOCH: 215 - best_loss: 0.01319111967086792 / old_loss: 0.013306374597549438
+
+Validation set: Average loss: 0.0134, Accuracy: 3585/5000 (72%)
+
+EPOCH: 216 - best_loss: 0.013382479572296142 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0140, Accuracy: 3555/5000 (71%)
+
+EPOCH: 217 - best_loss: 0.013984091979265213 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0138, Accuracy: 3546/5000 (71%)
+
+EPOCH: 218 - best_loss: 0.0138483562707901 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0139, Accuracy: 3501/5000 (70%)
+
+EPOCH: 219 - best_loss: 0.013861889827251435 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0137, Accuracy: 3579/5000 (72%)
+
+EPOCH: 220 - best_loss: 0.013690022027492523 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0140, Accuracy: 3516/5000 (70%)
+
+
+Test set: Average loss: 0.0133, Accuracy: 7187/10000 (72%)
+
+EPOCH: 221 - best_loss: 0.013963216078281403 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0136, Accuracy: 3591/5000 (72%)
+
+EPOCH: 222 - best_loss: 0.01364077365398407 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0135, Accuracy: 3577/5000 (72%)
+
+EPOCH: 223 - best_loss: 0.013484897994995117 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0137, Accuracy: 3548/5000 (71%)
+
+EPOCH: 224 - best_loss: 0.013745222973823547 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0137, Accuracy: 3542/5000 (71%)
+
+EPOCH: 225 - best_loss: 0.013729674661159515 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0137, Accuracy: 3593/5000 (72%)
+
+EPOCH: 226 - best_loss: 0.013691244041919709 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0135, Accuracy: 3612/5000 (72%)
+
+EPOCH: 227 - best_loss: 0.013503369051218033 / old_loss: 0.01319111967086792
+EARLY STOPPING COUNTS: 12
+
+Validation set: Average loss: 0.0131, Accuracy: 3639/5000 (73%)
+
+EPOCH: 228 - best_loss: 0.013084348523616791 / old_loss: 0.01319111967086792
+
+Validation set: Average loss: 0.0138, Accuracy: 3553/5000 (71%)
+
+EPOCH: 229 - best_loss: 0.01375560439825058 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0136, Accuracy: 3592/5000 (72%)
+
+EPOCH: 230 - best_loss: 0.013561448514461517 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0133, Accuracy: 3599/5000 (72%)
+
+
+Test set: Average loss: 0.0137, Accuracy: 7107/10000 (71%)
+
+EPOCH: 231 - best_loss: 0.013305324864387512 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0132, Accuracy: 3621/5000 (72%)
+
+EPOCH: 232 - best_loss: 0.013180997675657273 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0134, Accuracy: 3579/5000 (72%)
+
+EPOCH: 233 - best_loss: 0.013386629974842072 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0135, Accuracy: 3555/5000 (71%)
+
+EPOCH: 234 - best_loss: 0.013494460570812225 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0137, Accuracy: 3559/5000 (71%)
+
+EPOCH: 235 - best_loss: 0.013663392686843872 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0135, Accuracy: 3595/5000 (72%)
+
+EPOCH: 236 - best_loss: 0.013505400836467743 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0135, Accuracy: 3581/5000 (72%)
+
+EPOCH: 237 - best_loss: 0.013546722620725631 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0133, Accuracy: 3611/5000 (72%)
+
+EPOCH: 238 - best_loss: 0.013262691354751588 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0134, Accuracy: 3583/5000 (72%)
+
+EPOCH: 239 - best_loss: 0.013398055297136308 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0133, Accuracy: 3641/5000 (73%)
+
+EPOCH: 240 - best_loss: 0.013344509840011596 / old_loss: 0.013084348523616791
+EARLY STOPPING COUNTS: 12
+
+Validation set: Average loss: 0.0131, Accuracy: 3630/5000 (73%)
+
+
+Test set: Average loss: 0.0131, Accuracy: 7231/10000 (72%)
+
+EPOCH: 241 - best_loss: 0.013050594186782836 / old_loss: 0.013084348523616791
+
+Validation set: Average loss: 0.0135, Accuracy: 3607/5000 (72%)
+
+EPOCH: 242 - best_loss: 0.013485465228557586 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0135, Accuracy: 3609/5000 (72%)
+
+EPOCH: 243 - best_loss: 0.013512279909849167 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0135, Accuracy: 3594/5000 (72%)
+
+EPOCH: 244 - best_loss: 0.013546549463272094 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0136, Accuracy: 3573/5000 (71%)
+
+EPOCH: 245 - best_loss: 0.013636561942100524 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0138, Accuracy: 3591/5000 (72%)
+
+EPOCH: 246 - best_loss: 0.013753073465824127 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0133, Accuracy: 3632/5000 (73%)
+
+EPOCH: 247 - best_loss: 0.013298594522476196 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0135, Accuracy: 3574/5000 (71%)
+
+EPOCH: 248 - best_loss: 0.013512452948093414 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0132, Accuracy: 3643/5000 (73%)
+
+EPOCH: 249 - best_loss: 0.013154416346549987 / old_loss: 0.013050594186782836
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0130, Accuracy: 3626/5000 (73%)
+
+EPOCH: 250 - best_loss: 0.01302155802845955 / old_loss: 0.013050594186782836
+
+Validation set: Average loss: 0.0134, Accuracy: 3581/5000 (72%)
+
+
+Test set: Average loss: 0.0132, Accuracy: 7197/10000 (72%)
+
+EPOCH: 251 - best_loss: 0.013380264222621919 / old_loss: 0.01302155802845955
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0130, Accuracy: 3630/5000 (73%)
+
+EPOCH: 252 - best_loss: 0.013024623000621795 / old_loss: 0.01302155802845955
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0128, Accuracy: 3645/5000 (73%)
+
+EPOCH: 253 - best_loss: 0.012812063503265381 / old_loss: 0.01302155802845955
+
+Validation set: Average loss: 0.0132, Accuracy: 3660/5000 (73%)
+
+EPOCH: 254 - best_loss: 0.013212961745262146 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0136, Accuracy: 3626/5000 (73%)
+
+EPOCH: 255 - best_loss: 0.013556719887256622 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0134, Accuracy: 3642/5000 (73%)
+
+EPOCH: 256 - best_loss: 0.013403403240442277 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0136, Accuracy: 3595/5000 (72%)
+
+EPOCH: 257 - best_loss: 0.01363756536245346 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0129, Accuracy: 3683/5000 (74%)
+
+EPOCH: 258 - best_loss: 0.012902338862419128 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0131, Accuracy: 3683/5000 (74%)
+
+EPOCH: 259 - best_loss: 0.01314785190820694 / old_loss: 0.012812063503265381
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0124, Accuracy: 3694/5000 (74%)
+
+EPOCH: 260 - best_loss: 0.012357337814569474 / old_loss: 0.012812063503265381
+
+Validation set: Average loss: 0.0133, Accuracy: 3653/5000 (73%)
+
+
+Test set: Average loss: 0.0132, Accuracy: 7249/10000 (72%)
+
+EPOCH: 261 - best_loss: 0.013252295899391175 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 1
+
+Validation set: Average loss: 0.0134, Accuracy: 3626/5000 (73%)
+
+EPOCH: 262 - best_loss: 0.013441656619310379 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 2
+
+Validation set: Average loss: 0.0136, Accuracy: 3604/5000 (72%)
+
+EPOCH: 263 - best_loss: 0.013567731422185899 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 3
+
+Validation set: Average loss: 0.0134, Accuracy: 3617/5000 (72%)
+
+EPOCH: 264 - best_loss: 0.013447600018978118 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 4
+
+Validation set: Average loss: 0.0134, Accuracy: 3637/5000 (73%)
+
+EPOCH: 265 - best_loss: 0.013409818810224534 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 5
+
+Validation set: Average loss: 0.0132, Accuracy: 3642/5000 (73%)
+
+EPOCH: 266 - best_loss: 0.013243775802850723 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 6
+
+Validation set: Average loss: 0.0131, Accuracy: 3641/5000 (73%)
+
+EPOCH: 267 - best_loss: 0.013108956336975097 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 7
+
+Validation set: Average loss: 0.0132, Accuracy: 3680/5000 (74%)
+
+EPOCH: 268 - best_loss: 0.013239606535434724 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 8
+
+Validation set: Average loss: 0.0127, Accuracy: 3670/5000 (73%)
+
+EPOCH: 269 - best_loss: 0.012727953451871872 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 9
+
+Validation set: Average loss: 0.0134, Accuracy: 3656/5000 (73%)
+
+EPOCH: 270 - best_loss: 0.013384753465652465 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 10
+
+Validation set: Average loss: 0.0138, Accuracy: 3607/5000 (72%)
+
+
+Test set: Average loss: 0.0133, Accuracy: 7234/10000 (72%)
+
+EPOCH: 271 - best_loss: 0.01380230063199997 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 11
+
+Validation set: Average loss: 0.0138, Accuracy: 3610/5000 (72%)
+
+EPOCH: 272 - best_loss: 0.01384319731593132 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 12
+
+Validation set: Average loss: 0.0134, Accuracy: 3605/5000 (72%)
+
+EPOCH: 273 - best_loss: 0.013397970080375672 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 13
+
+Validation set: Average loss: 0.0133, Accuracy: 3631/5000 (73%)
+
+EPOCH: 274 - best_loss: 0.013313118839263916 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 14
+
+Validation set: Average loss: 0.0134, Accuracy: 3668/5000 (73%)
+
+EPOCH: 275 - best_loss: 0.01340294196009636 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 15
+
+Validation set: Average loss: 0.0130, Accuracy: 3637/5000 (73%)
+
+EPOCH: 276 - best_loss: 0.013037180280685425 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 16
+
+Validation set: Average loss: 0.0136, Accuracy: 3672/5000 (73%)
+
+EPOCH: 277 - best_loss: 0.013616226410865784 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 17
+
+Validation set: Average loss: 0.0134, Accuracy: 3617/5000 (72%)
+
+EPOCH: 278 - best_loss: 0.013431677949428558 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 18
+
+Validation set: Average loss: 0.0133, Accuracy: 3630/5000 (73%)
+
+EPOCH: 279 - best_loss: 0.013325076067447662 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 19
+
+Validation set: Average loss: 0.0131, Accuracy: 3665/5000 (73%)
+
+EPOCH: 280 - best_loss: 0.01311631578207016 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 20
+
+Validation set: Average loss: 0.0133, Accuracy: 3668/5000 (73%)
+
+
+Test set: Average loss: 0.0129, Accuracy: 7324/10000 (73%)
+
+EPOCH: 281 - best_loss: 0.01333453547358513 / old_loss: 0.012357337814569474
+EARLY STOPPING COUNTS: 21
+
+Validation set: Average loss: 0.0134, Accuracy: 3646/5000 (73%)
+
+
+Test set: Average loss: 0.0132, Accuracy: 7285/10000 (73%)
+
